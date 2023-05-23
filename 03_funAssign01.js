@@ -39,12 +39,10 @@ function addThreeValues(num1, num2, num3){
 }    
 addThreeValues("10.23,600,40")
 
-function addThreeValue(a, b , c){
-    var a = "Hello" ;
-    var b = "Good" ;
-    var c = "Morning" ;
+function addThreeValue(a , b , c){
+   
     var temp = a + b + c
     console.log("Result:", temp);
 }    
-addThreeValue("Hello, Good, Morning")
+addThreeValue("Hello ", "Good ", "Morning ");
 console.log("-------------------------------------------------------------");
